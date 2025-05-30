@@ -1,0 +1,60 @@
+# Files exceeding GitHub's absolute limit (>100MB)
+CompareModel/proj72_omics_compare/data/scnv.csv                    # 194.05 MB
+CompareModel/proj72_omics_compare/data/methylation.csv             # 136.83 MB
+DataProcessAndDataset/Preprocessed_data/multiomics/scnv.csv        # 194.05 MB
+DataProcessAndDataset/Preprocessed_data/multiomics/methylation.csv # 136.83 MB
+
+# Files exceeding GitHub's recommended limit (>50MB)
+OriginalDateset/kirc_omics/kirc_scnv.cct                          # 76.30 MB
+OriginalDateset/blca_omics/blca_scnv.cct                         # 60.37 MB
+OriginalDateset/blca_omics/blca_methylation.cct                  # 59.34 MB
+OriginalDateset/lihc_omics/lihc_scnv.cct                        # 54.52 MB
+OriginalDateset/lihc_omics/lihc_methylation.cct                 # 54.32 MB
+
+# General rules: Ignore large data files
+*.csv
+*.cct
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+
+# Python related files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE configuration files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.ipynb_checkpoints/ 
